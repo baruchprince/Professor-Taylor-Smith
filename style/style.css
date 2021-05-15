@@ -1,0 +1,331 @@
+
+* {
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+.banner{
+    height: 160px;
+    width: auto;
+    background-color: #1c9c1c;
+    padding: 10px;
+    background-position: right;
+}
+.inner-banner{
+  background-image: url(../images/ai2.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: auto;
+  height: 140px;
+  background-color: #000000;
+}
+.inner-banner h2{
+  background-color: transparent;
+  color: #79ff4d;
+  font-size: 24px;
+  line-height: 152px;
+  margin-left: 55px;
+}
+.inner-banner a{
+  text-decoration: none;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+  background-color: transparent;
+  margin-top: 5px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #ccffcc;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu a {
+  background-color:transparent;
+  padding:8px;
+  margin-top:7px;
+  color: #134d00;
+  display:block;
+  width:100%;
+  text-align: left;
+  text-decoration: none;
+}
+.menu li:hover {
+  background-color: #2db300;
+}
+
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+  height: 860px;
+}
+
+.main p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.people{
+    width: auto;
+    height: 350px;
+    background-color: transparent;
+    padding: 5px;
+}
+.people h3{
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.publication{
+  width:auto;
+  height: 850px;
+  background-color: transparent;
+  padding: 10px;
+}
+.publication h3{
+  color: #1c9c1c;
+}
+.publication table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  line-height: 0.5;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.group-member{
+    width: 168px;
+    height: 302px;
+    float: left;
+    margin: 4px;
+}
+
+.teaching{
+  width:auto;
+  height: 500px;
+  background-color: yellow;
+  margin-top: 80px;
+}
+.teaching h3{
+  color: #1c9c1c;
+}
+
+.member-pic-1{
+    height: 145px;
+    width: 165px;
+    display: inline-block;
+    background-image: url(../images/esther-baako.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.group-member:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+
+.member-pic-2{
+    height: 145px;
+    width: 165px;
+    display: inline-block;
+    background-image: url(../images/tim-forson.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.member-pic-3{
+    height: 145px;
+    width: 165px;
+    display: inline-block;
+    background-image: url(../images/mavis-bamfo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.member-details{
+    height: 145px;
+    width: 165px;
+    background-color: #ecffe6;
+    display: inline-block;
+    text-align: center;
+}
+
+.member-details h3{
+    color: #1c9c1c;
+}
+.member-details p{
+    color:#000000;
+    background-color: transparent;
+    line-height: normal;
+    text-align: center;
+}
+
+.prof-image{
+    background-image: url(../images/prof.png);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+    border: 2px solid #ffffff;
+    height: 140px;
+    width: 140px;
+    margin-left: 30px;
+    margin-top: 15px;
+    float: left;
+  }
+  .prof-detail{
+    height: 280px;
+    background-color: #ecffe6;
+    padding: 25px;
+    font-size: 14px;
+    width: auto;
+  }
+
+  .prof-detail h3, p{
+    background-color: transparent;
+  }
+ 
+
+  .recent-books h4{
+    text-align: center;
+  }
+  .recentbook-display-1{
+    height: 164px;
+    width: 120px;
+    background-color: transparent;
+    margin-top: 15px;
+    background-image: url(../images/book_1.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+  }
+  .recentbook-display-1:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+  }
+  .recentbook-display-2:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+  }
+  .recentbook-display-3:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+  }
+  .recentbook-display-2{
+    height: 164px;
+    width: 120px;
+    background-color: transparent;
+    margin-top: 15px;
+    background-image: url(../images/book_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+  }
+
+  .recentbook-display-3{
+    height: 164px;
+    width: 120px;
+    background-color:transparent;
+    margin-top: 15px;
+    background-image: url(../images/book_3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+  }
+
+  .contact p{
+    width: 150px;
+    height: 15px;
+  
+  }
+
+  .right h3{
+      color: #ff0000;
+  }
+
+  .right {
+    background-color:transparent;
+    float:left;
+    width:20%;
+    padding:5px;
+    margin-top:7px;
+    text-align:center;
+    height: 860px;
+  }
+  .fa {
+    padding: 5px;
+    font-size: 16px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .project-slideshow-container{
+    margin-top: 10px;
+  }
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .prof-detail {
+    width:auto;
+    height: 200px;
+  }
+}
+
+
+

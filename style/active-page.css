@@ -1,0 +1,10 @@
+#active-page{
+    background-color: #1c9c1c;
+    
+}
+#one{
+    color: #ffffff;
+}
+#one:hover{
+    cursor:default;
+}

@@ -1,0 +1,271 @@
+.books{
+    width: auto;
+    height: 765px;
+    background-color: transparent;
+    padding: 10px;
+}
+.book-panel{
+    height: 183px;
+    width:730px;
+    background-color: transparent;
+    display: inline-block;
+    padding: 5px;
+}
+.book-shelf-1{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    margin-bottom: 15px;
+    background-image: url(../images/book-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-1:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-2{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-2:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-3{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-3:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-4{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-4:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-5{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-5:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-6{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-6:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-7{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-7:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-8{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-8:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-9{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-9:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-10{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-10:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-11{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-11:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-12{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-12:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-13{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-13:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-14{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-14.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-14:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-15{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-15.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-15:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+.book-shelf-16{
+    width: 110px;
+    height: 163px;
+    float: left;
+    background-color: transparent;
+    margin-left: 23px;
+    background-image: url(../images/book-16.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border:1px solid #adff2f;
+}
+.book-shelf-16:hover{
+    border: 2px solid #53ff1a;
+    cursor: pointer;
+}
+

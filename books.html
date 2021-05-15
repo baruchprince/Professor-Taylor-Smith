@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="./style/style.css">
+<link rel="stylesheet" type="text/css" href="./style/active-page.css">
+<link rel="stylesheet" type="text/css" href="./style/books.css">
+<link rel="stylesheet" type="text/css" href="./style/book-modal.css">
+<title>Prof Taylor Smith - Books</title>
+</head>
+<body>
+
+<!--Modal view to show a preview of selected book-->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Preview content of selected book</p>
+    </div>
+
+</div>
+
+<!--website banner with Professor named Logo-->
+<div class="banner" id="to-banner">
+    <div class="inner-banner">
+      <h2><a href="index.html"><img src="./images/logo.png"></a></h2>
+    </div>
+    
+</div>
+
+<!--Navigation menu for the website-->
+<div style="overflow:auto">
+  <div class="menu">
+    <ul>
+      <li><a href="people.html">Peoples Group</a></li>
+      <li><a href="publication.html"">Publications</a></li>
+      <li id="active-page"><a href="books.html" id="one">Books</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!--Display of books authored and co-authored by Professor-->
+  <div class="main">
+    <div class="books">
+      <div class="book-panel">
+        <div class="book-shelf-1" id="myBtn"></div>
+        <div class="book-shelf-2" id="myBtn"></div>
+        <div class="book-shelf-3"></div>
+        <div class="book-shelf-4"></div>
+      </div>
+      <div class="book-panel">
+        <div class="book-shelf-5"></div>
+        <div class="book-shelf-6"></div>
+        <div class="book-shelf-7"></div>
+        <div class="book-shelf-8"></div>
+      </div>
+      <div class="book-panel">
+        <div class="book-shelf-9"></div>
+        <div class="book-shelf-10"></div>
+        <div class="book-shelf-11"></div>
+        <div class="book-shelf-12"></div>
+      </div>
+      <div class="book-panel">
+        <div class="book-shelf-13"></div>
+        <div class="book-shelf-14"></div>
+        <div class="book-shelf-15"></div>
+        <div class="book-shelf-16"></div>
+      </div>
+    </div>
+  </div>
+
+  <!--Professor's image, name , credentials and social media links-->
+  <div class="right">
+        <div class="prof-image"></div>
+        <div  class="prof-detail">
+          <h3>Professor Taylor Smith</h3>
+          <p>PhD.| MSc. | MIT. | BSc.</p>
+          <p>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+          </p>
+        </div>
+              
+    <br>
+
+    <!--Display of current books wriiten by Professor-->
+    <div class="recent-books"><h4>Recent Books</h4><hr></div>
+    <div class="recentbook-display-1"></div> 
+    <hr>
+    <div class="recentbook-display-2"></div>
+    <hr><br>
+    
+    <div class="contact" id="contact">
+      <h4>Tel: +233240654427 <br>
+      <p>P.O.Box 1234 Accra</p>
+      </h4>
+      <br>
+
+      <a href="#to-banner"><p style="text-decoration: none;">To Top</p></a>
+
+    </div>
+ 
+
+   
+  </div>
+</div>
+
+<!--Footer bearing copyright notice-->
+<div style="background-color:#ecffe6;text-align:center;padding:10px;margin-top:7px;">Copyright © Taylor Smith 2021</div>
+
+<!--Javasscript to display completed and on-going research projects under the leadership of Professor -->
+<script>
+  var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
+
+  <!--Javascript to display or preview a portion of content of each book in a modal view-->
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+</body>
+</html>
